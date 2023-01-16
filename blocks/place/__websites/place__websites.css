@@ -1,0 +1,27 @@
+.place__websites {
+  max-width: 456px;
+  min-height: 46px;
+  margin: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-self: left;
+  grid-template-rows: 1 / 2;
+  grid-template-columns: 2 / 3;
+  justify-self: left;
+  justify-content: end;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__websites {
+    max-width: 352px;
+    min-height: 46px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .place__websites {
+    max-width: 288px;
+  }
+}

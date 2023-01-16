@@ -1,0 +1,19 @@
+.place__website_link {
+  min-height: 22px;
+  margin-top: 12px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: url('../../../../images/cursor/Pointer.svg'), pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_link {
+    min-height: 22px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .place__website_link {
+    margin-left: 16px;
+  }
+}
