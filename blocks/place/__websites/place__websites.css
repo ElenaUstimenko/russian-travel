@@ -8,7 +8,6 @@
   justify-self: left;
   grid-template-rows: 1 / 2;
   grid-template-columns: 2 / 3;
-  justify-self: left;
   justify-content: end;
 }
 

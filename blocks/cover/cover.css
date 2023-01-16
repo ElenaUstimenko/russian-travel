@@ -12,8 +12,6 @@
   margin: 92px auto;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
   object-fit: cover;
 }
 
