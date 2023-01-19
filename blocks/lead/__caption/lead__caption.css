@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
   .lead__caption {
     max-width: 158px;
     min-height: 14px;

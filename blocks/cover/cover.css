@@ -32,7 +32,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
   .cover {
     background-image: url(../../images/cover-trains_320.jpg);
     max-width: 320px;

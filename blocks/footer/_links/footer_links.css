@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
   .footer_links {
     flex-direction: column;
     max-width: 186px;
