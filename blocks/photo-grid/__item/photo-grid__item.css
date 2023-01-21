@@ -2,6 +2,7 @@
   max-width: 284px;
   min-height: 213px;
   object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +23,5 @@
   .photo-grid__item {
     max-width: 288px;
     min-height: 216px;
-    row-gap: 12px;
-    column-gap: 0;
   }
 }

@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   object-fit: cover;
+  aspect-ratio: 3 / 2;
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,7 +36,7 @@
 @media screen and (max-width: 425px) {
   .cover {
     background-image: url(../../images/cover-trains_320.jpg);
-    max-width: 320px;
+    max-width: 425px;
     min-height: 200px;
     margin: 66px auto 64px auto;
   }

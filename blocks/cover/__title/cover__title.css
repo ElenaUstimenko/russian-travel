@@ -7,17 +7,18 @@
   color: #FFFFFF;
   margin: 0 auto 0 auto;
   text-align: center;
+  margin-top: 245px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    margin: 0 auto 0 auto;
+    margin: 195px auto 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    margin: 0 auto 0 auto;
+    margin: 115px auto 0 auto;
   }
 }
 
@@ -27,6 +28,6 @@
     min-height: 70px;
     font-size: 32px;
     line-height: 109%;
-    margin: 0 auto 0 auto;
+    margin: 33px auto 0 auto;
   }
 }

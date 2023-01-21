@@ -1,4 +1,4 @@
-:airplane:
+:red_car: :airplane: :train2:
 # **Путешествия по России** 
 
 **Целью проекта данного одностраничного сайта было создание адаптивного сайта с помощью возможностей HTML и CSS.**    
@@ -12,7 +12,7 @@ https://elenaustimenko.github.io/russian-travel/index.html
 
 ______________
 
-:airplane:
+:red_car: :airplane: :train2:
 # **Russian-travel**  
 
 **The goal of this one-page website project was to create a adaptive website using the possibilities of HTML and CSS.** 

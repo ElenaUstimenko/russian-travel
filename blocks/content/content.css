@@ -1,29 +1,24 @@
-.page {
+.content {
   max-width: 1280px;
-  width: 100%;
-  background-color: #2A2C2F;
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  color: #FFFFFF;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-  .page {
+  .content {
     max-width: 1024px;
-    min-height: 6895px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .page {
+  .content {
     max-width: 768px;
-    min-height: 6855px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .page {
+  .content {
     max-width: 425px;
   }
 }
