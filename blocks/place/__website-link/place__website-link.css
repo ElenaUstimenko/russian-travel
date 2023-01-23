@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
   margin-top: 12px;
   color: #FFFFFF;
   text-decoration: underline;
@@ -8,12 +8,12 @@
   line-height: 122%;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
   cursor: url('../../../../images/cursor/Pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 425px) {
-  .place__website_link {
+  .place__website-link {
     margin-left: 16px;
   }
 }
