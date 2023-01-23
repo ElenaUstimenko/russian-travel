@@ -1,4 +1,4 @@
- .footer_links {
+ .footer__links {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -7,21 +7,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .footer_links {
+  .footer__links {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer_links {
+  .footer__links {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 595px) {
-  .footer_links {
+@media screen and (max-width: 712px) {
+  .footer__links {
     flex-direction: column;
     max-width: 186px;
-    margin-left: 16px;
+    margin-left: 0;
   }
 }

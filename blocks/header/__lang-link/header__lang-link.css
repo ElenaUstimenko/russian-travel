@@ -1,8 +1,5 @@
 .header__lang-link {
-  max-width: 30px;
-  min-height: 28px;
   color: #FFFFFF;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -13,24 +10,18 @@
 
 .header__lang-link:last-child {
   margin-left: 18px;
-  max-width: 29px;
-  min-height: 28px;
 }
 
 .header__lang-link_active {
   text-decoration-line: underline;
 }
 
+.header__lang-link:hover {
+  cursor: url('../../../images/cursor/Pointer.svg'), pointer;
+}
+
 @media screen and (max-width: 425px) {
   .header__lang-link {
-    max-width: 22px;
-    min-height: 20px;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 117%;
   }
-  .header__lang-link:last-child {
-    max-width: 22px;
-    min-height: 20px;
-  } 
 }

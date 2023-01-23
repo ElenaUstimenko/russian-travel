@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
@@ -27,6 +33,6 @@
     max-width: 288px;
     min-height: 42px;
     width: calc(100% - 32px);
-    margin: 16px auto 0 auto;
+    margin-top: 16px;
   }
 }

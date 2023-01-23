@@ -1,15 +1,15 @@
 .place__website_link {
-  min-height: 22px;
   margin-top: 12px;
   color: #FFFFFF;
   text-decoration: underline;
-  cursor: url('../../../../images/cursor/Pointer.svg'), pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
 }
 
-@media screen and (max-width: 768px) {
-  .place__website_link {
-    min-height: 22px;
-  }
+.place__website_link:hover {
+  cursor: url('../../../../images/cursor/Pointer.svg'), pointer;
 }
 
 @media screen and (max-width: 425px) {
