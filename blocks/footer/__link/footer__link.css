@@ -16,6 +16,7 @@
 
 .footer__link:hover {
   cursor: url('../../../images/cursor/Pointer.svg'), pointer;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 712px) {

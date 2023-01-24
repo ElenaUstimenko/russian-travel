@@ -1,0 +1,47 @@
+.places__cards {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 148px 0 148px;
+  display: grid;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1215px) {
+  .places__cards {
+    padding-right: 68px;
+    padding-left: 68px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places__cards {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__cards {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .places__cards {
+    padding-left: calc((100% - 340px) / 2);
+    padding-right: calc((100% - 340px) / 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__cards {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__cards {
+    padding: 0;
+  }
+}

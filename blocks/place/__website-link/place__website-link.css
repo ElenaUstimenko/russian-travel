@@ -10,6 +10,7 @@
 
 .place__website-link:hover {
   cursor: url('../../../../images/cursor/Pointer.svg'), pointer;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
